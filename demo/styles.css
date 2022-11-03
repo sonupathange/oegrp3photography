@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+}
+.wrapper{
+    display: grid;
+    
+    margin: 0px;
+    background-color: rgb(30, 28, 28);
+}
+
+.Decors{
+    margin-right: 700px;
+    font-size: 25px;
+    margin-top: 0px;
+    color: #f1f1f1;
+    
+  }
+  
+button{
+   background-color: beige;
+    padding: 5px 5px;
+    font-size: 12px;
+    border-radius: 12px;
+}
+button:hover{
+    background-color: chocolate;
+}
+.wrapper ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items:end;
+    justify-content: end;
+    gap:0px;
+    font-family: 'Oswald', sans-serif;
+}
+.wrapper li{
+   
+    list-style: none;
+    color:white;
+}
+img{
+    position:absolute;
+    height: 300px;
+    width: 250px;
+    bottom: 100px;
+    right: 40px;
+    border-radius: 15px 50px 30px;
+}
+#video {
+    max-height: 475px;
+    overflow: hidden;
+    background-color: #333; 
+    position: relative;
+}
+
+#video {
+    width: 100%;
+    height: auto;
+}
+
+  .text-block {
+    position: absolute;
+    bottom: 250px;
+    right: 490px;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Fuzzy Bubbles', cursive;
+  }
+  .text-block h1{
+    text-align: center;
+  }
+.footer{
+    background-color: black;
+    font-size: small;
+    padding: 2px; 
+}
+.footer ul{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    font-family: 'Oswald', sans-serif;
+}
+.footer li{
+    list-style: none;
+    color:white;
+    text-align: end;
+    padding-right: 25px;     
+}
